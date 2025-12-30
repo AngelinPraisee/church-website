@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>NEW LIFE CHURCH</title>
+</head>
+<body>
+    <script>
+  // Emergency fix for text overflow on mobile
+  document.addEventListener('DOMContentLoaded', function() {
+    // Force text wrapping on problematic paragraphs
+    const paragraphs = document.querySelectorAll('.pastor1-text p, .pastor-text p');
+    paragraphs.forEach(p => {
+      p.style.wordBreak = 'break-word';
+      p.style.overflowWrap = 'break-word';
+      p.style.maxWidth = '100%';
+    });
+    
+    // Log any elements causing overflow
+    const allElements = document.querySelectorAll('*');
+    allElements.forEach(el => {
+      if (el.scrollWidth > document.documentElement.clientWidth) {
+        console.log('Overflow element:', el, el.className);
+        el.style.maxWidth = '100%';
+        el.style.overflowX = 'hidden';
+      }
+    });
+  });
+</script>
+    <header class="main-header">
+    <div class="header-content">
+
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="logo.png" alt="New Life Church Logo">
+        </div>
+
+        
+
+    </div>
+</header>
+
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#services">Services</a> |
+        <a href="#contact">Contact</a> |
+        <a href="#watch">Watch</a> |
+        <a href="#location">Location</a>
+    </nav>
+
+    <section id="home" class="home-section">
+    <div class="home-wrapper">
+
+        <!-- LEFT: Hover Video -->
+        <div class="home-video">
+    <video
+        src="welcome-video.mp4"
+        muted
+        loop
+        preload="metadata"
+        playsinline
+        class="hover-video">
+    </video>
+</div>
+
+
+
+        <!-- RIGHT: Text -->
+        <div class="home-text">
+            <h4>WELCOME TO OUR CHURCH</h4>
+            <h1>New Life Church, Avadi</h1>
+            <p>
+                A Christ-centered church, with a rich legacy of over 64 years, rooted in faith, worship, and prayer.
+                Led by Pastor Jacob Koshy, we are a loving community committed to sharing God's word, growing together in faith, and reflecting His love to all.
+                 
+            </p>
+            <a href="#services" class="home-btn">Join us for Worship</a>
+        </div>
+
+    </div>
+</section>
+<section class="next-steps">
+  <h2 class="section-title">Next Steps</h2>
+  <p class="section-subtitle">
+    No matter where you are in your faith journey, there is always a next step.
+  </p>
+
+  <div class="cards-container">
+
+    <a href="#services" class="step-card">
+      <img src="services.jpg" alt="Services">
+      <div class="card-overlay">
+        <span class="card-tag">SERVICES</span>
+        <h3>Service Timings</h3>
+      </div>
+    </a>
+
+    <a href="#about" class="step-card">
+      <img src="churchs.jpg" alt="About Church">
+      <div class="card-overlay">
+        <span class="card-tag">ABOUT</span>
+        <h3>About Our Church</h3>
+      </div>
+    </a>
+
+    <a href="#watch" class="step-card">
+      <img src="watch.jpg" alt="Watch">
+      <div class="card-overlay">
+        <span class="card-tag">WATCH</span>
+        <h3>Watch Sermons</h3>
+      </div>
+    </a>
+
+    <a href="#contact" class="step-card">
+      <img src="contact.jpg" alt="Contact">
+      <div class="card-overlay">
+        <span class="card-tag">CONTACT</span>
+        <h3>Get in Touch</h3>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<<section id="about" class="pastor1-section">
+    <div class="pastor-wrapper">
+        
+        <!-- LEFT: Text Content -->
+        <div class="pastor1-text">
+            <h2>ABOUT OUR CHURCH</h2>
+            <h3>NEW LIFE CHURCH</h3>
+            
+            <p>Our Church is a Christ-centered community built on faith, prayer and the unchanging Word of God. Established over 60 years ago, our church stands as a living testimony to God's faithfulness across generations.</p>
+            
+            <p>What began as a small step of obedience has grown into a spiritual home where believers gather to worship, grow and serve together as one body in Christ. Rooted in Biblical truth, we remain committed to preserving the spiritual foundation laid by our forefathers while continuing to move forward with renewed vision and purpose.</p>
+            
+            <p>Through every season, God has been our strength, guide and provider.</p>
+            
+            <span class="pastor-quote">One-body-in-Christ!</span>
+        </div>
+
+        <!-- RIGHT: Images stacked vertically -->
+        <div class="pastor-image1-box">
+            <img src="church1.jpg" alt="Church Interior">
+            <img src="church2.jpg" alt="Church Exterior">
+        </div>
+
+    </div>
+</section>
+
+    <section class="pastor-section">
+    <div class="pastor-wrapper">
+
+        <!-- LEFT : TEXT -->
+        <div class="pastor-text">
+            <h2>Senior Pastor</h2>
+            <h3>Pr. JACOB KOSHY</h3>
+
+            <p>
+                Pastor K.G. Koshy founded the church in Nov 1 1961. After his death in 1995, 
+                Pastor Jacob Koshy is serving as the Senior Pastor of New Life Church, Avadi. He completed his Bible Studies in Elim Bible College, USA. 
+                He is a devoted servant of God, who leads the church with faith, humility, and a deep passion for prayer and the word of God.
+                With over 34 years of pastoral Service, he has been shepherding the church with unwavering faith, humility, and a deep commitment to the word of God.
+                Through his leadership, the church has grown spiritually while remaining rooted in its strong foundation and values passed down through generations.
+            </p>
+
+            
+        </div>
+
+        <!-- RIGHT : IMAGE -->
+        <div class="pastor-image-box">
+            <img src="pastor.jpg" alt="Senior Pastor">
+        </div>
+
+    </div>
+</section>
+
+
+
+<section id="watch" class="youtube-section">
+    <h2>Latest Messages</h2>
+
+    <div class="youtube-wrapper">
+
+        <a href="https://www.youtube.com/watch?v=NY93ANb-zes" target="_blank" class="youtube-card">
+            <img src="https://img.youtube.com/vi/NY93ANb-zes/hqdefault.jpg" alt="Message 1">
+            <span class="play-icon">▶</span>
+            <p>Jesus changes us part-05</p>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=sflZBwfvFqA" target="_blank" class="youtube-card">
+            <img src="https://img.youtube.com/vi/sflZBwfvFqA/hqdefault.jpg" alt="Message 3">
+            <span class="play-icon">▶</span>
+            <p>Jesus changes us part-04</p>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=7V6OSNnp7i0 target="_blank" class="youtube-card">
+            <img src="https://img.youtube.com/vi/7V6OSNnp7i0/hqdefault.jpg" alt="Message 2">
+            <span class="play-icon">▶</span>
+            <p>Jesus changes us part-03</p>
+        </a>
+
+        
+
+        <a href="https://www.youtube.com/watch?v=AMZrO5QAp-g" target="_blank" class="youtube-card">
+            <img src="https://img.youtube.com/vi/AMZrO5QAp-g/hqdefault.jpg" alt="Message 4">
+            <span class="play-icon">▶</span>
+            <p>Jesus changes us part-02</p>
+        </a>
+        <a href="https://www.youtube.com/watch?v=0llYkVyyF5c" target="_blank" class="youtube-card">
+            <img src="https://img.youtube.com/vi/0llYkVyyF5c/hqdefault.jpg" alt="Message 4">
+            <span class="play-icon">▶</span>
+            <p>Jesus changes us part-01</p>
+        </a>
+
+    </div>
+</section>
+
+<section id="services" class="services-section">
+    <div class="services-wrapper">
+
+        <!-- LEFT SIDE: Title + Bible Verse -->
+        <div class="services-text">
+            <h2>WORSHIP SERVICES</h2>
+            <p class="bible-verse">
+                “Come, let us bow down in worship, let us kneel before the Lord our Maker.” – Psalm 95:6
+            </p>
+            <p class="description">
+                In our Church, we mainly focus on Worship, Word and Prayer. Our worship services are designed to inspire hearts, strengthen faith and encourage spiritual growth through heartfelt praise, biblical teaching, and intercessory prayer.
+                Whether you are new to the faith or a lifelong beleiver, you are always warmly welcomed to join us in lifting our hearts to God 
+                and growing together as a people rooted in His love!<br>                
+                <br>
+                Communion will be given in second Sunday of every Month and in every Sunday Evening Services.
+
+            </p>
+            <p class="bible-verse">
+                Join our worship services!<br> Let us magnify the name of the Lord together in His House!
+            </p>
+        </div>
+
+        <!-- RIGHT SIDE: Service Tiles -->
+        <div class="services-tiles">
+
+            <div class="service-tile">
+                <h3>Sunday Morning</h3>
+                <p> 4 Services </p>
+                <p>5:00 AM, 6:30 AM, 8:00 AM, 9:15 AM</p>
+            </div>
+
+            <div class="service-tile">
+                <h3>Sunday Evening</h3>
+                <p>Bilingual (English & Tamil)</p>
+                <p>6:30 PM</p>
+            </div>
+
+            <div class="service-tile">
+                <h3>Tuesday Service</h3>
+                <p>Prayer</p>
+                <p>6:15 PM</p>
+            </div>
+
+            <div class="service-tile">
+                <h3>Saturday Service</h3>
+                <p>Bible Study</p>
+                <p>6:15 PM</p>
+            </div>
+
+            <div class="service-tile">
+                <h3>Youth Fellowship</h3>
+                <p>Every month second Saturday</p>
+                <p>10:00 AM – 12:00 PM</p>
+            </div>
+
+            <div class="service-tile">
+                <h3>Promise Service</h3>
+                <p>1st of every month</p>
+                <p>5:00 AM – 6:30 AM</p>
+            </div>
+            <div class="service-tile">
+                <h3>Sunday School</h3>
+                <p>Children Bible School</p>
+                <p>4:00 PM</p>
+            </div>
+            <div class="service-tile">
+                <h3>Online Services</h3>
+                <p>Every Sunday</p>
+                <p>12 PM</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<script>
+const video = document.querySelector('.hover-video');
+
+video.addEventListener('mouseover', () => {
+    video.play();
+});
+
+video.addEventListener('mouseout', () => {
+    video.pause();
+});
+</script>
+
+<section id="location" class="location-section">
+  <div class="location-wrapper">
+    
+    <!-- LEFT: TEXT, IMAGE, BUTTON -->
+    <div class="location-text">
+      <h2>Our Location</h2>
+      <p>
+        Visit us at New Life Church, Avadi.<br>
+        We warmly welcome you to worship with us and experience God's presence.
+      </p>
+      
+      <div class="location-image">
+        <img src="church.jpg" alt="New Life Church, Avadi">
+      </div>
+      
+      <a href="https://www.google.com/maps" target="_blank" class="location-btn">
+        Get Directions
+      </a>
+    </div>
+    
+    <!-- RIGHT: MAP -->
+    <div class="location-map">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.7189720162573!2d80.09302627539375!3d13.11698128721197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5289d5b45089c1%3A0x76eecb7a6b43d409!2sNew%20Life%20Church!5e0!3m2!1sen!2sin!4v1767024446532!5m2!1sen!2sin"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    
+  </div>
+</section>
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+
+        <h2 class="contact-title">CONTACT</h2>
+        <div class="contact-line"></div>
+
+        <p class="contact-intro">
+            Welcome to the family! <br>
+            You can feel free to contact us incase of any queries
+        </p>
+
+        
+
+        <div class="contact-cards">
+
+            <div class="contact-card">
+                <span class="icon">📍</span>
+                <h3>Our Address</h3>
+                <p>New Life Church, Avadi, Chennai<br>Tamil Nadu</p>
+            </div>
+
+            <div class="contact-card">
+                <span class="icon">✉️</span>
+                <h3>Email Us</h3>
+                <p>pastorjacobkoshy@hotmail.com</p>
+            </div>
+
+            <div class="contact-card">
+                <span class="icon">📞</span>
+                <h3>Call Us</h3>
+                <p>+91 9841675535</p>
+            </div>
+
+        </div>
+
+    </div>
+    <p class="texto">Follow us: </p>
+    <div class="social-icons">
+    <a href="https://www.instagram.com/newlife_ministries_official?igsh=NnVuOGFsZ2M2N3I4" aria-label="Instagram"><i class="fab fa-instagram"></i></a><br>
+    <a href="https://www.facebook.com/share/17dU9Ld3Ef/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><br>
+    <a href="https://www.youtube.com/@pastorjacobkoshy" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+</div>
+
+</section>
+
+
+
+
+</body>
+</html>
